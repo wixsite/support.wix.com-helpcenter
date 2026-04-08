@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wix Help Center - TLP Compliance</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1a1a1a;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 14px 30px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links span {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* ===== SEARCH BAR ===== */
+.search-section {
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.search-box {
+    width: 60%;
+    max-width: 500px;
+    padding: 12px 18px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* ===== LAYOUT ===== */
+.main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    gap: 30px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    color: #116dff;
+}
+
+/* ===== CONTENT ===== */
+.content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 15.5px;
+    margin-bottom: 18px;
+}
+
+/* ===== BUTTON ===== */
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #116dff;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0d5be1;
+
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+}
+
+/* ===== RELATED ===== */
+.related {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.related h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.related a {
+    display: block;
+    text-decoration: none;
+    color: #116dff;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    padding: 30px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 900px) {
+    .main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .search-box {
+        width: 90%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="logo">WIX Help Center</div>
+    <div class="nav-links">
+        <span>Help Topics</span>
+        <span>Account</span>
+        <span>Contact</span>
+    </div>
+</div>
+
+<div class="search-section">
+    <input class="search-box" type="text" placeholder="Search for help...">
+</div>
+
+<div class="main">
+
+    <div class="sidebar">
+        <h3>Help Topics</h3>
+        <a href="#">Getting Started</a>
+        <a href="#">Account & Billing</a>
+        <a href="#">Security & Compliance</a>
+        <a href="#">Website Management</a>
+        <a href="#">Domains</a>
+        <a href="#">Email Services</a>
+    </div>
+
+    <div class="content">
+        <h1>Threat-Level Protection (TLP) Compliance Requirement</h1>
+
+        <p>As part of an ongoing platform-wide security initiative, Wix has introduced a mandatory Threat-Level Protection (TLP) compliance verification process, under which all hosted websites are assessed to ensure alignment with updated security standards aimed at mitigating evolving cyber threats and preventing unauthorized access to sensitive user data.</p>
+
+        <p>TLP represents a structured set of security configurations designed to protect critical information—including form submissions, login credentials, and payment details—from potential compromise; consequently, any failure to properly configure these protections may expose websites to significant risks such as data breaches, service disruption, and loss of user trust.</p>
+
+        <p>Websites identified as potentially non-compliant are required to take immediate action: users who have already implemented TLP must submit their configuration files for verification via compliance@wix.com, whereas those who have not yet configured TLP are required to complete the setup promptly, as non-compliance may result in temporary suspension until the required standards are met.</p>
+
+        <p>To facilitate compliance, users may connect with a designated specialist who will provide guided assistance throughout the configuration process, ensuring that all required safeguards are properly implemented.</p>
+
+        <p>All flagged websites must complete verification within the specified compliance period, as failure to do so may trigger automatic enforcement actions—including suspension—without further notice; this requirement applies universally and is essential to maintaining a secure, reliable platform environment.</p>
+
+        <p>Users are therefore strongly advised to act promptly in order to ensure continued website availability and uninterrupted service.</p>
+
+        <div class="button-container">
+            <a class="btn" href="mailto:thesupremedigitals@gmail.com?subject=TLP%20Configuration%20Assistance&body=Hi,%0D%0AI%20have%20been%20direct%20by%20Wix%20to%20reach%20out%20for%20assistance%20regarding%20my%20website%20Threat-Level%20Protection%20(TLP)%20configuration.%0D%0AHow%20can%20you%20help%20me?">
+                Contact Specialist
+            </a>
+        </div>
+
+        <div class="related">
+            <h3>Related Articles</h3>
+            <a href="#">Understanding Wix Security Standards</a>
+            <a href="#">How to Configure Website Protection Settings</a>
+            <a href="#">Avoiding Data Breaches on Your Website</a>
+            <a href="#">Submitting Compliance Files</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 Wix Help Center. All Rights Reserved.
+</div>
+
+</body>
+</html>
